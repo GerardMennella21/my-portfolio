@@ -5,16 +5,16 @@ export default function Nav() {
         <nav>
             <ul className="nav justify-content-around">
                 <li className="nav-item">
-                    <a className="nav-link text-danger" href="#about-me">About Me</a>
+                    <a className="nav-link " href="#about-me">About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-danger" href="#portfolio">Portfolio</a>
+                    <a className="nav-link " href="#portfolio">Portfolio</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-danger" href="#contact">Contact</a>
+                    <a className="nav-link " href="#contact">Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link text-danger" href="#resume">Resume</a>
+                    <a className="nav-link " href="#resume">Resume</a>
                 </li>
             </ul>
         </nav>

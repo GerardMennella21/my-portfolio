@@ -3,12 +3,9 @@ import Nav from "../Nav"
 
 export default function Header() {
     return (
-        <header className="d-flex justify-content-between bg-secondary">
-            <h2 className="text-danger">
+        <header className="d-flex flex-column align-items-center justify-content-center">
+            <h1 className="">
                 Gerard Mennella
-            </h2>
-            <h1 className="text-light">
-                My Portfolio
             </h1>
             <Nav />
         </header>

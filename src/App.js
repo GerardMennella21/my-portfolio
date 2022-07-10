@@ -1,12 +1,13 @@
 import Header from './components/Header';
 import Footer from './components/Footer';
+import './App.css'
 
 function App() {
   return (
-    <div className="App min-vh-100 d-flex flex-column">
+    <div className="min-vh-100 d-flex flex-column">
       <Header />
-      <main className='bg-primary min-vh-100'>
-        test
+      <main className='min-vh-100'>
+
       </main>
       <Footer />
     </div>
