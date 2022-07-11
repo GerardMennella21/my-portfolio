@@ -1,61 +1,66 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel'
+import Project from "../Project";
 
 export default function Portfolio() {
     const [projects] = useState([
         {
             name: "Budge-It",
-            type: "Full-Stack"
+            description: ""
         },
         // {
         //     name: "My-Social-API",
-        //     type: "Back-End"
+        //     description: ""
         // },
         {
             name: "Weather-Dashboard",
-            type: "Front-End"
+            description: ""
         },
         // {
         //     name: "Readme-Generator",
-        //     type: "Back-End"
+        //     description: ""
         // },
         {
             name: "Password-Generator",
-            type: "Front-End"
+            description: ""
         },
         // {
         //     name: "Portfolio-Generator",
-        //     type: "Back-End"
+        //     description: ""
         // },
         {
             name: "Work-Day-Scheduler",
-            type: "Front-End"
+            description: ""
         },
         {
             name: "Code-Quiz",
-            type: "Front-End"
+            description: ""
         },
         {
             name: "Take-A-Note",
-            type: "Front-End"
+            description: ""
         }
         // {
         //     name: "Worker-Tracker",
-        //     type: "Back-End"
+        //     description: ""
         // }
     ])
-
+      
     return (
-        <Carousel fade id="my-projects">
-            {projects.map(project => (
-                <Carousel.Item>
-                    <img src={require(`../../assets/Projects/${project.name}.png`)} 
-                        className="d-block ms-auto me-auto rounded" 
-                        alt={project.name}
-                        key={project.name}
-                    />
-                </Carousel.Item>
-            ))}
-        </Carousel>
+        <section id="my-projects" className="animate__animated animate__lightSpeedInLeft text-center">
+            <h2 className="mpHeader border-bottom">My Projects</h2>
+            <Carousel fade className="border-bottom">
+                {projects.map(project => (
+                    <Carousel.Item>
+                        <h3 className="mpHeader mt-3">{project.name}</h3>
+                        <img src={require(`../../assets/Projects/${project.name}.png`)} 
+                            className="d-block projectSlide ms-auto me-auto mb-5 mt-5 rounded" 
+                            alt={project.name}
+                            key={project.name}
+                        />
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+        </section>
     )
 }

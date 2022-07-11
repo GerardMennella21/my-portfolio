@@ -6,25 +6,26 @@
 --blue-violet: #8338ecff;
 --azure: #3a86ffff;
 }
+
+/* Background */
 body {
   background: linear-gradient(-45deg, var(--amber), var(--winter-sky), var(--orange-pantone), var(--blue-violet), var(--azure));
-  background-size: 400% 400%;
+  background-size: 250% 250%;
   animation: gradient 15s ease infinite;
 }
+/* End Background */
 
+/* Header/Footer */
 header,
 footer {
   background-color: #000;
-  /* background: linear-gradient(90deg, black, white, black, white, black, white, black, white, black, white, black, white);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite; */
 }
 
 header {
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
   width:100%;
-  position:absolute;
+  position:sticky;
 }
 
 header h1 {
@@ -32,7 +33,7 @@ header h1 {
   background-clip: text;
   color: transparent;
   animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
+  background-size: 250% 250%;
 }
 
 nav ul li a {
@@ -41,27 +42,40 @@ nav ul li a {
 
 footer {
   border-top-left-radius: 50% 40%;
-  border-top-right-radius: 50% 0%;
+  border-top-right-radius: 50% 40%;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+/* End Header/Footer */
 
+/* About */
 #my-pic {
   border-radius: 50%;
-  height: 40%;
-  width: 40%;
+  height: 45%;
+  width: 45%;
 }
 
 #bio {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+/* End About */
+
+/* Portfolio */
+.mpHeader {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
 #my-projects {
   width: 100%;
-  display: flex;
-  justify-content: center;
+
 }
+
+.projectSlide {
+  width: 50%;
+}
+/* End Portfolio */
 
 @keyframes gradient {
 	0% {
