@@ -57,6 +57,11 @@ footer {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+#my-projects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 @keyframes gradient {
 	0% {
