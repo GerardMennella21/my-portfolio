@@ -6,8 +6,9 @@ export default function Portfolio() {
     const [projects] = useState([
         {
             name: "Budge-It",
-            description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            description: "An application that allows users to input their income sources and expenses to track their budget. Users can create an account and view their incomes and expenses on their dashboard. The application calculates your total yearly income and expenses based on your input. ",
+            github: "https://github.com/GerardMennella21/budge-it",
+            languages: "Javascript, MySQL, Sequelize, Express.js, Handlebars.js, Node.js"
         },
         // {
         //     name: "My-Social-API",
@@ -16,7 +17,8 @@ export default function Portfolio() {
         {
             name: "Weather-Dashboard",
             description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            github: "https://github.com/GerardMennella21/Weather-Dashboard",
+            languages: "HTML, CSS, Javascript"
         },
         // {
         //     name: "Readme-Generator",
@@ -25,7 +27,8 @@ export default function Portfolio() {
         {
             name: "Password-Generator",
             description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            github: "https://github.com/GerardMennella21/Password-Generator",
+            languages: "HTML, CSS, Javascript"
         },
         // {
         //     name: "Portfolio-Generator",
@@ -34,17 +37,20 @@ export default function Portfolio() {
         {
             name: "Work-Day-Scheduler",
             description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            github: "https://github.com/GerardMennella21/work-day-scheduler",
+            languages: "HTML, CSS, Javascript"
         },
         {
             name: "Code-Quiz",
             description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            github: "https://github.com/GerardMennella21/Code-Quiz",
+            languages: "HTML, CSS, Javascript"
         },
         {
             name: "Take-A-Note",
             description: "test",
-            github: "https://github.com/GerardMennella21/budge-it"
+            github: "https://github.com/GerardMennella21/take-a-note",
+            languages: "HTML, CSS, Javascript"
         }
         // {
         //     name: "Worker-Tracker",
@@ -52,13 +58,30 @@ export default function Portfolio() {
         // }
     ])
       
+    const openModal = (project) => {
+        setModalOpen(true);
+        setSelectedProject(project);
+    }  
+
+    const closeModal = () => {
+        setModalOpen(false);
+    }
+
+    const [modalOpen, setModalOpen] = useState(false)
+    const [selectedProject, setSelectedProject] = useState()
+
     return (
-        <section id="my-projects" className="animate__animated animate__lightSpeedInLeft text-center">
-            <h2 className="mpHeader border-bottom">My Projects</h2>
-            <Carousel fade className="border-bottom">
+        <section id="my-projects" className="animate__animated animate__lightSpeedInLeft animate__faster text-center">
+            {modalOpen && (
+                <Project selectedProject={selectedProject} closeModal={closeModal} />
+            )}
+            <div className=" border-bottom border-top bg-dark">
+                <h2 className="mpHeader">My Projects</h2>
+            </div>
+            <Carousel fade className="">
                 {projects.map(project => (
-                    <Carousel.Item>
-                        <h3 className="mpHeader mt-3">{project.name}</h3>
+                    <Carousel.Item onClick={() => openModal(project)}>
+                        <h3 className="projectHeader mt-3">{project.name}</h3>
                         <img src={require(`../../assets/Projects/${project.name}.png`)} 
                             className="d-block projectSlide ms-auto me-auto mb-5 mt-5 rounded" 
                             alt={project.name}

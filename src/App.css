@@ -70,20 +70,42 @@ footer {
 /* End About */
 
 /* Portfolio */
-.mpHeader {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 
 #my-projects {
   width: 100%;
 
 }
 
+.projectSlide:hover {
+  cursor: pointer;
+}
+
 .projectSlide {
   width: 50%;
 }
 /* End Portfolio */
+
+/* Project */
+.projectHeader {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.modal-footer p:hover {
+  cursor: pointer;
+}
+
+.modal-title,
+.modal-body p,
+.modal-footer,
+.mpHeader {
+  background: linear-gradient(-45deg, var(--amber), var(--winter-sky), var(--orange-pantone), var(--blue-violet), var(--azure));
+  background-clip: text;
+  color: transparent;
+  animation: gradient 15s ease infinite;
+  background-size: 250% 250%;
+}
+/* End Project */
 
 @keyframes gradient {
 	0% {

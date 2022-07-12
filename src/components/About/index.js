@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 export default function About() {
 
     return (
-        <section id="about-me" className="col-9 animate__animated animate__rollIn d-flex flex-column flex-xl-row align-items-center mt-5">
+        <section id="about-me" className="col-9 animate__animated animate__rollIn animate__fast d-flex flex-column flex-xl-row align-items-center mt-5">
             <motion.img drag dragConstraints={{top: -100, left: -100, right: 100, bottom: 100}} whileHover={{rotate: 360}} id="my-pic" alt="Gerard Mennella" className="" src={Me2}/>
             <motion.article whileHover={{ scale: 1.15}} id="bio" className="d-flex flex-column m-5 fs-5 text-center align-items-center">
                 <h2 className="border-bottom">About Me</h2>
