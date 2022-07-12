@@ -32,7 +32,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="">
+        <div id="contact" className="">
             <div className="text-center bg-dark rounded animate__animated animate__flip animate__slow" >
                 <h1 id="reachOut" className="">Reach Out</h1>
             </div>

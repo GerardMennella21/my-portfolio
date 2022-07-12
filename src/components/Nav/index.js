@@ -8,7 +8,7 @@ export default function Nav({ onPageChange }) {
                     <a onClick={() => onPageChange('about-me')} className="nav-link " href="#about-me">About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a onClick={() => onPageChange('portfolio')} className="nav-link " href="#portfolio">Portfolio</a>
+                    <a onClick={() => onPageChange('portfolio')} className="nav-link " href="#my-projects">Portfolio</a>
                 </li>
                 <li className="nav-item">
                     <a onClick={() => onPageChange('contact')} className="nav-link " href="#contact">Contact</a>

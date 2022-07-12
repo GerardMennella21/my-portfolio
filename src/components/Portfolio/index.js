@@ -73,13 +73,13 @@ export default function Portfolio() {
             <Carousel fade className="">
                 {projects.map(project => (
                     <Carousel.Item onClick={() => openModal(project)}>
-                        <h3 className="projectHeader mt-3">{project.name}</h3>
-                        <img src={require(`../../assets/Projects/${project.name}.png`)} 
-                            className="d-block projectSlide ms-auto me-auto mb-5 mt-5 rounded" 
-                            alt={project.name}
-                            key={project.name}
-                        />
-                    </Carousel.Item>
+                    <h3 className="projectHeader mt-3">{project.name}</h3>
+                    <img src={require(`../../assets/Projects/${project.name}.png`)} 
+                        className="d-block projectSlide ms-auto me-auto mb-5 mt-5 rounded" 
+                        alt={project.name}
+                        key={project.name}
+                    />
+                </Carousel.Item>
                 ))}
             </Carousel>
         </section>
