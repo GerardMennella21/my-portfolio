@@ -1,8 +1,9 @@
 import React from "react";
+import GitHubLogo from '../../assets/GitHubLogo.png'
 
 export default function Project({ selectedProject, closeModal}) {
 
-    const {name, description, github, languages} = selectedProject
+    const {name, description, github, languages, activeApp} = selectedProject
 
     return (
             <div className="modal-dialog animate__animated animate__bounceInDown animate__faster align-self-start">
@@ -20,8 +21,9 @@ export default function Project({ selectedProject, closeModal}) {
                     <p className="fs-5 mt-3">{description}</p>
                     <p>Built Using: {languages}</p>
                     </div>
-                    <div className="modal-footer">
-                        <p onClick={() => document.location.replace(github)}>View on Github</p>
+                    <div className="modal-footer d-flex justify-content-between">
+                        <p onClick={() => document.location.replace(activeApp)} >View Deployed Application</p>
+                        <p onClick={() => document.location.replace(github)} ><img alt="github logo" className="me-2" src={GitHubLogo} />View on Github</p>
                     </div>
                 </div>
             </div>

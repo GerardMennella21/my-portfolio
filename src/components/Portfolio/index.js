@@ -8,54 +8,46 @@ export default function Portfolio() {
             name: "Budge-It",
             description: "An application that allows users to input their income sources and expenses to track their budget. Users can create an account and view their incomes and expenses on their dashboard. The application calculates your total yearly income and expenses based on your input. ",
             github: "https://github.com/GerardMennella21/budge-it",
-            languages: "Javascript, MySQL, Sequelize, Express.js, Handlebars.js, Node.js"
+            languages: "Javascript, MySQL, Sequelize, Express.js, Handlebars.js, Node.js",
+            activeApp: "https://budge--it.herokuapp.com/"
         },
-        // {
-        //     name: "My-Social-API",
-        //     description: "test"
-        // },
         {
             name: "Weather-Dashboard",
-            description: "test",
+            description: "An application that allows users to check the weather of a particular area. When searched, the current weather will display, along with a five day forecast. The users search history is stored as well",
             github: "https://github.com/GerardMennella21/Weather-Dashboard",
-            languages: "HTML, CSS, Javascript"
+            languages: "HTML, CSS, Javascript",
+            activeApp: "https://gerardmennella21.github.io/Weather-Dashboard/"
         },
-        // {
-        //     name: "Readme-Generator",
-        //     description: "test"
-        // },
+
         {
             name: "Password-Generator",
-            description: "test",
+            description: "An application that allows a user to generate a random password between 8-128 characters. Upon activation the user is presented with a series of prompts to specify length and character types for the password.",
             github: "https://github.com/GerardMennella21/Password-Generator",
-            languages: "HTML, CSS, Javascript"
+            languages: "HTML, CSS, Javascript",
+            activeApp: "https://gerardmennella21.github.io/Password-Generator/"
         },
-        // {
-        //     name: "Portfolio-Generator",
-        //     description: "test"
-        // },
+
         {
             name: "Work-Day-Scheduler",
-            description: "test",
+            description: "An application that allows user to plan their schedule for a 9 to 5 work day. User input can be saved and time blocks are checked against the current time and color coded accordingly.",
             github: "https://github.com/GerardMennella21/work-day-scheduler",
-            languages: "HTML, CSS, Javascript"
+            languages: "HTML, CSS, Javascript",
+            activeApp: "https://gerardmennella21.github.io/work-day-scheduler/"
         },
         {
             name: "Code-Quiz",
-            description: "test",
+            description: "A simple quiz on some basic coding concepts. The user's high score is saved to local storage and displayed.",
             github: "https://github.com/GerardMennella21/Code-Quiz",
-            languages: "HTML, CSS, Javascript"
+            languages: "HTML, CSS, Javascript",
+            activeApp: "https://gerardmennella21.github.io/Code-Quiz/"
         },
         {
             name: "Take-A-Note",
-            description: "test",
+            description: "An application designed to create and save notes. Notes can be added and deleted with ease and changes persist on reload",
             github: "https://github.com/GerardMennella21/take-a-note",
-            languages: "HTML, CSS, Javascript"
+            languages: "HTML, CSS, Javascript, Express.js",
+            activeApp: "https://intense-peak-25620.herokuapp.com/"
         }
-        // {
-        //     name: "Worker-Tracker",
-        //     description: ""
-        // }
     ])
       
     const openModal = (project) => {
