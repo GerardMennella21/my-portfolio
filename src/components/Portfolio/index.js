@@ -6,39 +6,45 @@ export default function Portfolio() {
     const [projects] = useState([
         {
             name: "Budge-It",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         },
         // {
         //     name: "My-Social-API",
-        //     description: ""
+        //     description: "test"
         // },
         {
             name: "Weather-Dashboard",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         },
         // {
         //     name: "Readme-Generator",
-        //     description: ""
+        //     description: "test"
         // },
         {
             name: "Password-Generator",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         },
         // {
         //     name: "Portfolio-Generator",
-        //     description: ""
+        //     description: "test"
         // },
         {
             name: "Work-Day-Scheduler",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         },
         {
             name: "Code-Quiz",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         },
         {
             name: "Take-A-Note",
-            description: ""
+            description: "test",
+            github: "https://github.com/GerardMennella21/budge-it"
         }
         // {
         //     name: "Worker-Tracker",

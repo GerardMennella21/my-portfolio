@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Resume from "./components/Resume";
 
 
 
@@ -26,9 +27,9 @@ function App() {
     if (currentPage === "contact") {
       return <Contact />
     }
-    // if (currentPage === "resume") {
-    //   return <Resume />
-    // }
+    if (currentPage === "resume") {
+      return <Resume />
+    }
   }
   return (
     <div className="min-vh-100 d-flex flex-column">
