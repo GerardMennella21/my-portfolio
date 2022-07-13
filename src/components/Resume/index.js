@@ -15,7 +15,7 @@ export default function Resume() {
             </div>
             
             {showResume && (
-                <div className="animate__animated animate__flipInX">
+                <div className="animate__animated animate__jackInTheBox">
                     <img src={resume} alt="My Resume" className="rounded w-100"/>
                 </div>
             )}
