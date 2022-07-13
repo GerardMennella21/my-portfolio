@@ -12,6 +12,13 @@ export default function Portfolio() {
             activeApp: "https://budge--it.herokuapp.com/"
         },
         {
+            name: "Tech-Deck",
+            description: "This application is a CMS style tech blog. Users can create an account to add posts. Users can view other user's posts, like, and comment.",
+            github: "https://github.com/GerardMennella21/Tech-Deck",
+            languages: "Javascript, MySQL, Sequelize, Express.js, Handlebars.js, Node.js",
+            activeApp: "https://stormy-lowlands-21347.herokuapp.com/"
+        },
+        {
             name: "Weather-Dashboard",
             description: "An application that allows users to check the weather of a particular area. When searched, the current weather will display, along with a five day forecast. The users search history is stored as well",
             github: "https://github.com/GerardMennella21/Weather-Dashboard",
