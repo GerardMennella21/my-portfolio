@@ -16,7 +16,7 @@ export default function Portfolio() {
             description: "This application is a CMS style tech blog. Users can create an account to add posts. Users can view other user's posts, like, and comment.",
             github: "https://github.com/GerardMennella21/Tech-Deck",
             languages: "Javascript, MySQL, Sequelize, Express.js, Handlebars.js, Node.js",
-            activeApp: "https://stormy-lowlands-21347.herokuapp.com/"
+            activeApp: "https://stormy-lowlands-21347.herokuapp.com"
         },
         {
             name: "Weather-Dashboard",
