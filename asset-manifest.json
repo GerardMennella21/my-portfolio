@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.be6fc6ec.css",
-    "main.js": "/my-portfolio/static/js/main.09b555ee.js",
+    "main.js": "/my-portfolio/static/js/main.882a5ad2.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Me2.jpg": "/my-portfolio/static/media/Me2.9b3b30d1420fbca3f316.jpg",
     "static/media/Weather-Dashboard.png": "/my-portfolio/static/media/Weather-Dashboard.d87da74cfeaf45e80e32.png",
@@ -9,17 +9,17 @@
     "static/media/Code-Quiz.png": "/my-portfolio/static/media/Code-Quiz.b155c107f4387e7b9a92.png",
     "static/media/Budge-It.png": "/my-portfolio/static/media/Budge-It.8435b560683e911a7f36.png",
     "static/media/Password-Generator.png": "/my-portfolio/static/media/Password-Generator.1d54c6f9363f2065b331.png",
-    "static/media/homeScrnsht.png": "/my-portfolio/static/media/homeScrnsht.bdf6df0a2dd92f4bec0a.png",
+    "static/media/Tech-Deck.png": "/my-portfolio/static/media/Tech-Deck.bdf6df0a2dd92f4bec0a.png",
     "static/media/Take-A-Note.png": "/my-portfolio/static/media/Take-A-Note.a3a33117e0fd1af59286.png",
     "static/media/Work-Day-Scheduler.png": "/my-portfolio/static/media/Work-Day-Scheduler.e7a9356f23329aec02e6.png",
     "static/media/MyResume.docx": "/my-portfolio/static/media/MyResume.dda1534f65379fd048a4.docx",
     "index.html": "/my-portfolio/index.html",
     "main.be6fc6ec.css.map": "/my-portfolio/static/css/main.be6fc6ec.css.map",
-    "main.09b555ee.js.map": "/my-portfolio/static/js/main.09b555ee.js.map",
+    "main.882a5ad2.js.map": "/my-portfolio/static/js/main.882a5ad2.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be6fc6ec.css",
-    "static/js/main.09b555ee.js"
+    "static/js/main.882a5ad2.js"
   ]
 }
