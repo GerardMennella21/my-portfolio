@@ -20,15 +20,14 @@ export default function Resume() {
                 </div>
             )}
             {showResume ? (
-                <div className="w-100 border-top animate__animated animate__bounceInRight">
+                <div className="w-100 border-top animate__animated animate__bounceInLeft">
                     <button className="btn w-100 btn-dark text-light " onClick={() => {toggleResume()}}>Hide Resume</button>
                 </div>
             ) : (
-                <div className="w-100 border-top animate__animated animate__bounceInRight">
+                <div className="w-100 border-top animate__animated animate__bounceInLeft">
                     <button className="btn w-100 btn-dark text-light" onClick={() => {toggleResume()}}>Show Resume</button>
                 </div>
             )} 
-            
         </section>
     )
 }
